@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+#home {
+    background-image: url(../img/home.png);
+    width: 1600px;
+    height: 843px;
+    position: relative;
+}
+ul.header {
+    margin: 0 310px;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    padding: 50px 10px 12px 0;
+    text-align: center;
+}
+li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Signika', sans-serif;
+}
+li.brand{
+    padding: 28px 150px 12px 16px;
+}
+li.brand a {
+    margin-right: 339px;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Kaushan Script', cursive;
+}
+#home .active {
+    width: 74px;
+    background-color: #3f9fc9;
+}
+#home .net {
+    margin: 450px 500px 190px 633px;
+    padding: 0;
+}
+
+/*#####################   ABOUT    ###############*/
+#about {
+    margin-top: -37px;
+    background-image: url(../img/about.png);
+    width: 1600px;
+    height: 843px;
+
+}
+#about .active {
+    width: 74px;
+    background: #E7645D;
+}
+div#about div.content {
+    margin: 80px auto 0 auto;
+    width: 956px;
+}
+div#about div.content h1 {
+    color: #fff;
+    font-family: 'Signika', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+div.content h1 span.serv {
+    background-color: #2FAE96;
+}
+div.content h1 span.client {
+    background-color: #7F4C75;
+}
+div#about div.content>p {
+    color: #fff;
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
+div#about div.content>p>span {
+    color: #fd2614;
+}
+div.cards {
+    display: inline-block;
+    margin-top: 100px;
+    width: 100%;
+    color: #ecedef;
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+div.card {
+    padding-top: 26px;
+    margin-right: 15px;
+    display: inline-block;
+    width: 214px;
+    height: 310px;
+    text-align: center;
+    background-color: #E6655E;
+    border: solid 3px #F4948B;
+}
+.job {
+    font-size: 13px;
+}
+div.card>p {
+
+}
+div.card>ul {
+    padding: 0;
+    list-style: none;
+    border-top: solid 4px #2AAE96;
+    padding-top: 26px;
+}
+div.card>ul>li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
