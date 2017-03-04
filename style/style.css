@@ -1,6 +1,9 @@
 body {
     margin: 0;
 }
+.body {
+    margin: 0 auto;
+}
 #home {
     background-image: url(../img/home.png);
     width: 1600px;
@@ -128,6 +131,7 @@ div#services {
     background-image: url(../img/Services.png);
     width: 1600px;
     height: 1077px;
+    position: relative;
     z-index: 997;
 }
  #services .active {
@@ -163,5 +167,17 @@ div#services {
     padding-right: 18px;
     padding-left: 19px;
     font-size: 13px;
-
+}
+/*#####################   CLIENTS    ###############*/
+#clients {
+    margin-top: -37px;
+    background-image: url(../img/clients.png);
+    width: 1600px;
+    height: 1162px;
+    position: relative;
+    z-index: 996;
+}
+#clients .active {
+    width: 74px;
+    background-color: #E7645D;
 }
