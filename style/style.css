@@ -61,13 +61,15 @@ li.brand a {
 }
 div#about div.content,
 div#services div.content,
-div#clients div.content {
+div#clients div.content,
+div#contacts div.content {
     margin: 80px auto 0 auto;
     width: 956px;
 }
 div#about div.content h1,
 div#services div.content h1,
-div#clients div.content h1 {
+div#clients div.content h1,
+div#contacts div.content h1 {
     color: #ECEDEF;
     font-family: 'Signika', sans-serif;
     font-size: 48px;
@@ -81,7 +83,9 @@ div.content h1 span.serv {
 div.content h1 span.client {
     background-color: #7F4C75;
 }
-div#about div.content>p, div#services div.content>p {
+div#about div.content>p,
+div#services div.content>p,
+div#contacts div.content>p{
     color: #fff;
     font-family: Arial;
     font-size: 19px;
@@ -177,11 +181,45 @@ div#services {
     margin-top: -37px;
     background-image: url(../img/clients.png);
     width: 1600px;
-    height: 1162px;
+    height: 1176px;
     position: relative;
     z-index: 996;
 }
 #clients .active {
     width: 74px;
     background-color: #B288AB;
+}
+
+#clients div.card {
+    display: inline-block;
+    width: 220px;
+    padding-top: 120px;
+    padding-right: 16px;
+    font-family: Arial;
+    text-align: center;
+    color: #ffffff;
+}
+#clients .company {
+    font-weight: 500;
+    font-size: 19px;
+}
+#clients .description {
+    font-size: 13px;
+
+}
+#clients p>a {
+    color: #b288ab;
+}
+/*#####################   CONTACTS    ###############*/
+#contacts {
+    margin-top: -37px;
+    background-color: #439FC7;
+    width: 1600px;
+    height: 1162px;
+    position: relative;
+    z-index: 995;
+}
+#contacts .active {
+    width: 90px;
+    background-color: #38637E;
 }
