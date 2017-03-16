@@ -223,3 +223,12 @@ div#services {
     width: 90px;
     background-color: #38637E;
 }
+
+
+footer {
+    background-color: #34495F;
+    width: 1600px;
+    height: 100px;
+    position: relative;
+    z-index: 994;
+}
