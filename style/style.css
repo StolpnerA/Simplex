@@ -59,11 +59,15 @@ li.brand a {
     width: 74px;
     background-color: #E7645D;
 }
-div#about div.content, div#services div.content {
+div#about div.content,
+div#services div.content,
+div#clients div.content {
     margin: 80px auto 0 auto;
     width: 956px;
 }
-div#about div.content h1, div#services div.content h1 {
+div#about div.content h1,
+div#services div.content h1,
+div#clients div.content h1 {
     color: #ECEDEF;
     font-family: 'Signika', sans-serif;
     font-size: 48px;
@@ -179,5 +183,5 @@ div#services {
 }
 #clients .active {
     width: 74px;
-    background-color: #E7645D;
+    background-color: #B288AB;
 }
