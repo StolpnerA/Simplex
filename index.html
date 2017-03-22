@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <title>Simplex</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Kaushan+Script|Signika:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Kaushan+Script|Signika:300,400"
+          rel="stylesheet">
 
     <link rel="stylesheet" href="style/style.css">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('body').on("click", "a", function (event) {
+                event.preventDefault();
+                var id = $(this).attr('href'),
+                    top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top}, 1000);
+            });
+        });
+    </script>
 </head>
 <body>
 <div id="home">
@@ -27,8 +43,15 @@
         <li><img src="img/icon.png" alt="icon"></li>
     </ul>
 </div>
+
 <!-- ##################    ABOUT    ###########-->
+
 <div id="about">
+    <div class="ht">
+        <div></div>
+        <div class="tri"></div>
+        <div></div>
+    </div>
     <header class="home">
         <ul class="header">
             <li class="brand"><a href="#">simplex</a></li>
@@ -43,7 +66,8 @@
         <h1>Only Professional <span class="serv">Services</span> for Our <span class="client">Clients</span></h1>
         <p>
             <span>Click here</span> for more info about this free website template created by TemplateMonster.com
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet
+            ultricies erat rutrum.
             Cras facilisis, nulla vel viverra auctor, leo magna sodales felis odio ut velit.
         </p>
         <div class="cards">
@@ -101,9 +125,15 @@
             </div>
         </div>
     </div>
+
 </div>
 <!--#########################    Services   ############################## -->
 <div id="services">
+    <div class="ht">
+        <div></div>
+        <div class="tri"></div>
+        <div></div>
+    </div>
     <header class="home">
         <ul class="header">
             <li class="brand"><a href="#">simplex</a></li>
@@ -117,42 +147,56 @@
     <div class="content">
         <h1>Our Services</h1>
         <p>
-            Vivamus at magna non nunc tristique rhoncus. Aliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuada faucibus. Donec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed nulla facilisis consequat. Curabitur vel lorem sit amet nulla ullamcorper fermentum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis odio ut velit.
+            Vivamus at magna non nunc tristique rhoncus. Aliquam nibh ante, egestas id dictum a, commodo luctus libero.
+            Praesent faucibus malesuada faucibus. Donec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Nullam consectetur orci sed nulla facilisis consequat. Curabitur vel lorem sit
+            amet nulla ullamcorper fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra
+            auctor, leo magna sodales felis odio ut velit.
         </p>
         <div class="cards">
             <div class="card">
                 <img src="img/strategy.png" alt="laura">
                 <span>Strategy</span>
                 <div class="service">
-                    Vivamus at magna non nunc tristique rhoncus. Aliquam nibh ante, egestas id dictum a, commodo luctus libero.
+                    Vivamus at magna non nunc tristique rhoncus. Aliquam nibh ante, egestas id dictum a, commodo luctus
+                    libero.
                 </div>
             </div>
             <div class="card">
                 <img src="img/research.png" alt="laura">
                 <span>Research</span>
                 <div class="service">
-                    Ite auctor non pellentesque vel, aliquet sit amet erat. Nullam eget dignissim nisi, aliquam feugiat nibhh sagittis
+                    Ite auctor non pellentesque vel, aliquet sit amet erat. Nullam eget dignissim nisi, aliquam feugiat
+                    nibhh sagittis
                 </div>
             </div>
             <div class="card">
                 <img src="img/development.png" alt="laura">
                 <span>Development</span>
                 <div class="service">
-                    Praesent faucibusamus ater asmagna non nunc tristique rhoncus. Aliquam nib ante, tas id dictum aluctus libero.
+                    Praesent faucibusamus ater asmagna non nunc tristique rhoncus. Aliquam nib ante, tas id dictum
+                    aluctus libero.
                 </div>
             </div>
             <div class="card">
                 <img src="img/consulting.png" alt="laura">
                 <span>Consulting</span>
                 <div class="service">
-                    Etiam dui eros na non nunc tristique rhoncus. Aliquam nibh ante, egestas id dictum a commodo luctus libero.
+                    Etiam dui eros na non nunc tristique rhoncus. Aliquam nibh ante, egestas id dictum a commodo luctus
+                    libero.
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!--#########################    Clients   ############################## -->
 <div id="clients">
+    <div class="ht">
+        <div></div>
+        <div class="tri"></div>
+        <div></div>
+    </div>
     <header class="home">
         <ul class="header">
             <li class="brand"><a href="#">simplex</a></li>
@@ -169,7 +213,7 @@
             <div class="card">
                 <img src="img/Standart.jpg" alt="Standart">
                 <p class="company">Company Name</p>
-                <p class="description">Aliquam nibh ante, egestas id dictum  wrecommodo luctus liberoaesent.
+                <p class="description">Aliquam nibh ante, egestas id dictum wrecommodo luctus liberoaesent.
                 </p>
                 <p><a href="https://www.google.by/" target="_blank" title="someText">Go to Site &gt;</a></p>
             </div>
@@ -226,6 +270,11 @@
     </div>
 </div>
 <div id="contacts">
+    <div class="ht">
+        <div></div>
+        <div class="tri"></div>
+        <div></div>
+    </div>
     <header class="home">
         <ul class="header">
             <li class="brand"><a href="#">simplex</a></li>
@@ -239,12 +288,13 @@
     <div class="content">
         <h1>Get in Touch</h1>
         <p>
-            Gyrto ivamus at magna non nunc tristique rhoncusu. Lliquam nibh ante, egestas id dictum a, commodo luctus mibero. Praesent faucibus malesuada faucibu. Monec laoreet metus id laoreet malesuadw.
+            Gyrto ivamus at magna non nunc tristique rhoncusu. Lliquam nibh ante, egestas id dictum a, commodo luctus
+            mibero. Praesent faucibus malesuada faucibu. Monec laoreet metus id laoreet malesuadw.
         </p>
     </div>
 </div>
 <footer>
-
+    &copy;All right reserved
 </footer>
 </body>
 </html>

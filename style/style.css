@@ -1,25 +1,32 @@
 body {
     margin: 0;
+    width: 100%;
 }
+
 .body {
     margin: 0 auto;
 }
+
 #home {
-    background-image: url(../img/home.png);
-    width: 1600px;
+    background: url(../img/home.png);
+    background-size: cover;
+    width: 100%;
     height: 843px;
     position: relative;
     z-index: 999;
 }
+
 ul.header {
-    margin: 0 310px;
+    margin: 0 20%;
     padding: 0;
 }
+
 li {
     display: inline-block;
-    padding: 50px 10px 12px 0;
+    padding: 52px 10px 12px 0;
     text-align: center;
 }
+
 li a {
     color: #ffffff;
     text-decoration: none;
@@ -27,38 +34,58 @@ li a {
     font-weight: 400;
     font-family: 'Signika', sans-serif;
 }
-li.brand{
-    padding: 28px 150px 12px 16px;
+
+li.brand {
+    padding: 30px;
+    margin-right: 40%;
 }
+
 li.brand a {
-    margin-right: 339px;
+
     color: #ffffff;
     font-size: 36px;
     font-weight: 400;
     font-family: 'Kaushan Script', cursive;
 }
+
+.ht {
+    margin-bottom: -41px;
+}
+
+.ht div {
+    width: 43%;
+    display: inline-block;
+}
+
 #home .active {
     width: 74px;
     background-color: #3f9fc9;
 }
+
 #home .net {
-    margin: 450px 500px 190px 633px;
+    margin: 450px auto;
     padding: 0;
+    width: 330px;
 }
 
 /*#####################   ABOUT    ###############*/
 #about {
-    margin-top: -37px;
-    background-image: url(../img/about.png);
-    width: 1600px;
+    background-color: #F17C72;
+    width: 100%;
     height: 1036px;
     position: relative;
     z-index: 998;
 }
+
+#about div.tri {
+    border-top-color: #2C1C14;
+}
+
 #about .active {
     width: 74px;
     background-color: #E7645D;
 }
+
 div#about div.content,
 div#services div.content,
 div#clients div.content,
@@ -66,6 +93,7 @@ div#contacts div.content {
     margin: 80px auto 0 auto;
     width: 956px;
 }
+
 div#about div.content h1,
 div#services div.content h1,
 div#clients div.content h1,
@@ -77,15 +105,18 @@ div#contacts div.content h1 {
     letter-spacing: 1px;
     text-align: center;
 }
+
 div.content h1 span.serv {
     background-color: #2FAE96;
 }
+
 div.content h1 span.client {
     background-color: #7F4C75;
 }
-div#about div.content>p,
-div#services div.content>p,
-div#contacts div.content>p{
+
+div#about div.content > p,
+div#services div.content > p,
+div#contacts div.content > p {
     color: #fff;
     font-family: Arial;
     font-size: 19px;
@@ -93,9 +124,11 @@ div#contacts div.content>p{
     line-height: 19px;
     text-align: center;
 }
-div#about div.content>p>span {
+
+div#about div.content > p > span {
     color: #fd2614;
 }
+
 #about div.cards {
     display: inline-block;
     margin-top: 100px;
@@ -107,6 +140,7 @@ div#about div.content>p>span {
     line-height: 18px;
 
 }
+
 #about div.card {
     padding-top: 26px;
     margin-right: 15px;
@@ -117,16 +151,19 @@ div#about div.content>p>span {
     background-color: #E6655E;
     border: solid 3px #F4948B;
 }
+
 .job {
     font-size: 13px;
 }
-#about div.card>ul {
+
+#about div.card > ul {
     padding: 0;
     list-style: none;
     border-top: solid 4px #2AAE96;
     padding-top: 26px;
 }
-#about div.card>ul>li {
+
+#about div.card > ul > li {
     display: inline-block;
     padding: 0;
     margin: 0;
@@ -135,17 +172,29 @@ div#about div.content>p>span {
 /*#####################   SERVICES    ###############*/
 
 div#services {
-    margin-top: -37px;
-    background-image: url(../img/Services.png);
-    width: 1600px;
+    background-color: #32AC97;
+    width: 100%;
     height: 1077px;
     position: relative;
     z-index: 997;
 }
- #services .active {
-     width: 74px;
-     background-color: #4BDCC7;
- }
+
+div.tri {
+    width: 0%;
+    border-top: solid 37px;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
+
+#services div.tri {
+    border-top-color: #F17C72;
+}
+
+#services .active {
+    width: 74px;
+    background-color: #4BDCC7;
+}
+
 #services div.cards {
     display: inline-block;
     margin-top: 100px;
@@ -157,6 +206,7 @@ div#services {
     line-height: 18px;
 
 }
+
 #services div.card {
     padding-top: 26px;
     margin-right: 15px;
@@ -167,24 +217,31 @@ div#services {
     background-color: #46DCC7;
     border: solid 3px #A5DBD1;
 }
+
 #services img {
     margin-bottom: 26px;
 }
+
 #services .service {
     padding-top: 19px;
     padding-right: 18px;
     padding-left: 19px;
     font-size: 13px;
 }
+
 /*#####################   CLIENTS    ###############*/
 #clients {
-    margin-top: -37px;
-    background-image: url(../img/clients.png);
-    width: 1600px;
+    background-color: #7F4C76;
+    width: 100%;
     height: 1176px;
     position: relative;
     z-index: 996;
 }
+
+#clients div.tri {
+    border-top-color: #32AC97;
+}
+
 #clients .active {
     width: 74px;
     background-color: #B288AB;
@@ -199,36 +256,47 @@ div#services {
     text-align: center;
     color: #ffffff;
 }
+
 #clients .company {
     font-weight: 500;
     font-size: 19px;
 }
+
 #clients .description {
     font-size: 13px;
 
 }
-#clients p>a {
+
+#clients p > a {
     color: #b288ab;
 }
+
 /*#####################   CONTACTS    ###############*/
 #contacts {
-    margin-top: -37px;
     background-color: #439FC7;
-    width: 1600px;
+    width: 100%;
     height: 1162px;
     position: relative;
     z-index: 995;
 }
+
+#contacts div.tri {
+    border-top-color: #7F4C76;
+}
+
 #contacts .active {
     width: 90px;
     background-color: #38637E;
 }
 
-
 footer {
+    padding-top: 50px;
     background-color: #34495F;
-    width: 1600px;
-    height: 100px;
+    width: 100%;
+    height: 50px;
     position: relative;
     z-index: 994;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial;
 }
